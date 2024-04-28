@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --red: #eb0524;
+    --gray: ##101c28;
+}
+
+body{
+    font-family: "poppins", sans-serif;
+}
+
+*{
+    margin: 0px;
+}
+
+button{
+    padding: 6px 16px;
+    all: unset;
+    background: var(--red);
+    height: 32px;
+    color: white;
+    font-weight: 500;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.logo img{
+    height: 35px;
+    width: auto;
+}
+
+.Body {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 72px);
+  }
+  .Body-content {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    width: 640px;
+    text-align: left;
+    margin-left: 40px;
+  }
+  .Body h1 {
+    font-weight: 500;
+    line-height: 140px;
+    font-size: 60px;
+  }
+  .Body p {
+    font-weight: 600;
+    color: var(--gray);
+    max-width: 400px;
+  }
+  
+  .Body-btn {
+    display: flex;
+    gap: 40px;
+  }
+  .Body-btn button {
+    font-size: 24px;
+  }
+  
+  .connect p {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .brand {
+    display: flex;
+    gap: 16px;
+  }
+
+  .social-media{
+    align-items: right;
+    width: 640px;
+    text-align: right;
+  }
